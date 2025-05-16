@@ -62,4 +62,4 @@ jupyter notebook
 ```
 ## 📄 **License**
 
-This project is open-source under the MIT License. see the [MIT License](./MIT License) file for details.
+This project is open-source under the MIT License. see the [MIT License](https://github.com/shreyasrai1/pneumonia-detection-model/blob/main/MIT%20License.txt) file for details.
