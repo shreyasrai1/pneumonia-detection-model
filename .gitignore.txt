@@ -1,18 +1,51 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks
-# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
-### JupyterNotebooks ###
-# gitignore template for Jupyter Notebooks
-# website: http://jupyter.org/
+# Virtual environment
+venv/
+env/
+.venv/
 
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+# Jupyter Notebook checkpoints and history
+.ipynb_checkpoints/
+*.nbconvert.ipynb
 
-# IPython
-profile_default/
-ipython_config.py
+# TensorFlow, Keras, PyTorch logs and checkpoints
+checkpoints/
+*.ckpt
+*.h5
+*.pb
+*.tflite
+*.log
+events.out.tfevents.*
 
-# Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
+# Dataset directories (if large/local)
+train/
+val/
+test/
+*.zip
+*.tar.gz
 
-# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks
+# System files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# VS Code and Jupyter config
+.vscode/
+.jupyter/
+
+# Logs
+*.log
+
+# Environment variables and credentials
+.env
+.env.*
